@@ -8,6 +8,8 @@ on:
 jobs:
   extract:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # necessário para que a action faça push
 
     steps:
       - name: Checkout
@@ -29,12 +31,11 @@ jobs:
         run: |
           python scrape_soccerstats.py
 
-      - name: Commit results
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Atualização automática $(date)" || echo "Nenhuma alteração para commitar"
-          git push
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Commit results and push
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions[bot]
+          author_email: actions@github.com
+          message: "Auto: soccerstats ${{ github.run_id }}"
+          add: "data/*.json data/*.csv"
+          push: true

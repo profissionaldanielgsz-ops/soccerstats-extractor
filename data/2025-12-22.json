@@ -1,0 +1,112 @@
+{
+  "date_extracted": "2025-12-22",
+  "source_url": "https://www.soccerstats.com/latest.asp?league=england",
+  "league": "league=england",
+  "teams": [
+    {
+      "team_raw": "Premier League",
+      "team": "Premier League",
+      "metrics": {
+        "1": "Premier League"
+      }
+    },
+    {
+      "team_raw": "Championship",
+      "team": "Championship",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "League One",
+      "team": "League One",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "League Two",
+      "team": "League Two",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "National League",
+      "team": "National League",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "National L. North",
+      "team": "National L. North",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "National L. South",
+      "team": "National L. South",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "Isthmian league",
+      "team": "Isthmian league",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "Northern league",
+      "team": "Northern league",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "Southern Central",
+      "team": "Southern Central",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "Southern South",
+      "team": "Southern South",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "Premier League 2",
+      "team": "Premier League 2",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "Women Super League",
+      "team": "Women Super League",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "WSL 2",
+      "team": "WSL 2",
+      "metrics": {
+        "1": "stats"
+      }
+    },
+    {
+      "team_raw": "Professional Development League",
+      "team": "Professional Development League",
+      "metrics": {
+        "1": "stats"
+      }
+    }
+  ]
+}
